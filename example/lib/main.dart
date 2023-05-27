@@ -14,7 +14,7 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> with SingleTickerProviderStateMixin {
   List<SectionTextModel> sectionTexts = [];
-  double v;
+  late double v;
   @override
   void initState() {
     super.initState();
